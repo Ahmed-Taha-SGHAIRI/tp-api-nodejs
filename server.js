@@ -1,6 +1,8 @@
 // ============================================
 // IMPORTS
 // ============================================
+
+// Raid passed from here
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/database');
