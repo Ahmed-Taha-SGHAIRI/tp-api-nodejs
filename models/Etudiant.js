@@ -31,7 +31,7 @@ const etudiantSchema = new mongoose.Schema({
     filiere: {
         type: String,
         required: [true, 'La filière est obligatoire'],
-        enum: ['Informatique', 'Génie Civil', 'Électronique', 'Mécanique']
+        enum: ['Informatique', 'Génie Civil', 'Électronique', 'Mécanique', "Mathématiques"]
     },
     
     // Champ année : nombre entre 1 et 5
